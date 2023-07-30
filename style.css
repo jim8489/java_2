@@ -1,0 +1,29 @@
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+.text{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.button{
+    background-color: rgb(13, 248, 103);
+    border: none;
+    text-align: center;
+    padding: 15px 32px;
+    margin: 20px 20px;
+    cursor: pointer;
+    width: 100%;
+}
+.button:hover{
+    background-color: rgb(242, 157, 9);
+}
+@media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%;
+      }
+    }
